@@ -422,6 +422,14 @@
     <section id="issue" class="py-5">
         <div class="container">
             <h2 class="section-title fade-in">Understanding The Issue</h2>
+            <div class="row mb-5">
+                <div class="col-lg-10 mx-auto fade-in">
+                    <div class="alert alert-warning">
+                        <h5><i class="fas fa-exclamation-triangle"></i> The Gap Analysis</h5>
+                        <p class="mb-0">Media globalization promises cultural exchange and democratic information flow, but the reality reveals concentrated media power and profound asymmetries in global communication systems. In the Philippines, this manifests through platform dominance, algorithmic control, and systematic extraction of value without local benefit.</p>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-4 fade-in">
                     <div class="interactive-card" onclick="showModal('media-power')">
@@ -442,6 +450,14 @@
                         <div class="card-icon"><i class="fas fa-network-wired"></i></div>
                         <h3>Digital Imperialism</h3>
                         <p>Algorithms and platforms controlled by foreign corporations dictate information flow and cultural consumption.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12 fade-in">
+                    <div class="interactive-card" onclick="showModal('theoretical-framework')">
+                        <h4><i class="fas fa-book-open text-primary"></i> Theoretical Foundations</h4>
+                        <p>Understanding media globalization requires examining five key theoretical frameworks that explain power dynamics, cultural flows, and resistance patterns. Click to explore the academic foundations of this analysis.</p>
                     </div>
                 </div>
             </div>
@@ -544,8 +560,19 @@
 
     <section id="solution" class="py-5">
         <div class="container">
-            <h2 class="section-title fade-in">Comprehensive Cultural Sovereignty Framework</h2>
-            <p class="text-center mb-5 fade-in">An integrated four-component solution addressing supply, distribution, consumption, and oversight</p>
+            <h2 class="section-title fade-in">Stakeholder Perspectives & Solution Evaluation</h2>
+            <p class="text-center mb-5 fade-in">Multiple actors propose different solutions. Understanding these perspectives is crucial to selecting the most appropriate approach.</p>
+            
+            <div class="row mb-5">
+                <div class="col-lg-12 fade-in">
+                    <button class="btn btn-outline-primary btn-lg w-100" onclick="showModal('stakeholder-positions')">
+                        <i class="fas fa-users"></i> View All Stakeholder Positions & Recommended Solutions
+                    </button>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-4 fade-in">Comprehensive Cultural Sovereignty Framework</h3>
+            <p class="text-center mb-5 fade-in"><strong>Selected as the most appropriate solution</strong> after evaluating multiple perspectives through criteria of effectiveness, feasibility, cultural impact, and democratic legitimacy.</p>
             <div class="framework-grid">
                 <div class="framework-item fade-in">
                     <div class="framework-number">1</div>
@@ -668,6 +695,14 @@
             'digital-divide': {
                 title: 'Digital Cultural Imperialism',
                 body: '<p><strong>Modern Form:</strong> Media imperialism extends beyond traditional broadcast to encompass digital platforms, algorithms, and data collection.</p><p><strong>Scale:</strong> 86.75 million Filipinos use social media platforms, with 96% on Facebook and 49.09 million on TikTok.</p><p><strong>Control:</strong> Foreign-owned algorithms determine information exposure, prioritizing engagement over accuracy and enabling systematic manipulation.</p>'
+            },
+            'theoretical-framework': {
+                title: 'Theoretical Foundations of Media Imperialism',
+                body: '<h5>Five Key Frameworks Explaining Media Globalization</h5><div class="accordion" id="theoryAccordion"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#theory1">Media Imperialism Theory</button></h2><div id="theory1" class="accordion-collapse collapse show" data-bs-parent="#theoryAccordion"><div class="accordion-body"><strong>Core Concept:</strong> Western (particularly American) media content dominance represents soft power projection shaping global cultural norms.<br><strong>Application:</strong> Since the 1990s, US institutions have set standards for global scholarship and cultural production, penetrating deeply into international systems.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory2">Global Media Systems Theory</button></h2><div id="theory2" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion"><div class="accordion-body"><strong>Core Concept:</strong> Media operates as a global system with center-periphery dynamics mirroring economic and political globalization.<br><strong>Application:</strong> Powerful metropolitan nations at the center break down integrity and autonomy of peripheral countries like the Philippines.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory3">Digital Cultural Imperialism</button></h2><div id="theory3" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion"><div class="accordion-body"><strong>Core Concept:</strong> Modern imperialism extends beyond traditional media to digital platforms, algorithms, and data systems.<br><strong>Application:</strong> Globalization facilitates cultural spread through technology, but this becomes a tool of cultural imperialism when controlled by foreign powers.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory4">Empire and Media Symbiosis</button></h2><div id="theory4" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion"><div class="accordion-body"><strong>Core Concept:</strong> All empires are media-dependent; media imperialism has been central to world systems for centuries.<br><strong>Application:</strong> Media serves as instrument of economic, geopolitical, and cultural-ideological expansion and influence.</div></div></div><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory5">Political Economy of Media</button></h2><div id="theory5" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion"><div class="accordion-body"><strong>Core Concept:</strong> Transnational corporate ownership creates systemic biases favoring dominant cultural interests.<br><strong>Application:</strong> Alternative views and local cultural expressions are pushed to margins while corporate content dominates.</div></div></div></div>'
+            },
+            'stakeholder-positions': {
+                title: 'Stakeholder Perspectives & Proposed Solutions',
+                body: '<h5>Different Actors, Different Solutions</h5><div class="table-responsive"><table class="table table-bordered"><thead><tr><th>Stakeholder</th><th>Position</th><th>Proposed Solution</th></tr></thead><tbody><tr><td><strong>Global Media Companies</strong></td><td>Market liberalization, reduced regulation</td><td>Remove content quotas, harmonize international copyright, market-based regulation</td></tr><tr><td><strong>Philippine Government</strong></td><td>Balance development with cultural protection</td><td>Local content mandates, foreign investment policies requiring partnerships, platform taxation</td></tr><tr><td><strong>Local Media Industry</strong></td><td>Protection from unfair competition</td><td>Development funds, anti-dumping policies, government support for Filipino content</td></tr><tr><td><strong>Civil Society</strong></td><td>Media diversity and democratic access</td><td>Public broadcasting investment, media literacy programs, community media support</td></tr><tr><td><strong>Academic Community</strong></td><td>Evidence-based balanced approach</td><td>Research-informed policies, international collaboration on media regulation</td></tr><tr><td><strong>Filipino Viewers</strong></td><td>Access to both global and local content</td><td>Quality Filipino productions with global platform access</td></tr></tbody></table></div><h5 class="mt-4">Evaluation Criteria</h5><p>The comprehensive cultural sovereignty framework was selected by evaluating all proposed solutions against:</p><ul><li><strong>Effectiveness:</strong> Does it address root causes of media imperialism?</li><li><strong>Feasibility:</strong> Can it be implemented with available resources and political will?</li><li><strong>Cultural Impact:</strong> Does it protect and promote Filipino cultural sovereignty?</li><li><strong>Democratic Legitimacy:</strong> Does it involve stakeholders and maintain accountability?</li><li><strong>Economic Sustainability:</strong> Can it be maintained long-term without excessive government spending?</li><li><strong>Integration:</strong> Do components reinforce each other synergistically?</li></ul><div class="alert alert-success mt-3"><strong><i class="fas fa-check-circle"></i> Why This Solution:</strong> The comprehensive framework scores highest across all criteria by integrating multiple stakeholder perspectives, creating self-sustaining economic models, and balancing global integration with local sovereignty.</div>'
             }
         };
 
