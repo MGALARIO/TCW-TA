@@ -1,256 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Globalization in the Philippines | Terminal Assessment</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Globalization in the Philippines | Terminal Assessment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-globe"></i> Media Globalization PH</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#issue">The Issue</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#impact">Impact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#vulnerabilities">Vulnerabilities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#solution">Solution</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#action">Take Action</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Media Globalization in the Philippines</h1>
-            <p>Cultural Imperialism and the Fight for Local Sovereignty</p>
-        </div>
-        <div class="scroll-indicator" onclick="document.getElementById('issue').scrollIntoView({behavior: 'smooth'})">
-            <i class="fas fa-chevron-down fa-2x text-white"></i>
-        </div>
-    </section>
-
-    <section id="issue" class="py-5">
-        <div class="container">
-            <h2 class="section-title fade-in">Understanding The Issue</h2>
-            <div class="row mb-5">
-                <div class="col-lg-10 mx-auto fade-in">
-                    <div class="alert alert-warning">
-                        <h5><i class="fas fa-exclamation-triangle"></i> The Gap Analysis</h5>
-                        <p class="mb-0">Media globalization promises cultural exchange and democratic information flow, but the reality reveals concentrated media power and profound asymmetries in global communication systems. In the Philippines, this manifests through platform dominance, algorithmic control, and systematic extraction of value without local benefit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 fade-in">
-                    <div class="interactive-card" onclick="showModal('media-power')">
-                        <div class="card-icon"><i class="fas fa-broadcast-tower"></i></div>
-                        <h3>Media Power</h3>
-                        <p>Global media conglomerates shape cultural norms and values through concentrated ownership and content distribution.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 fade-in">
-                    <div class="interactive-card" onclick="showModal('cultural-flow')">
-                        <div class="card-icon"><i class="fas fa-stream"></i></div>
-                        <h3>Cultural Flow</h3>
-                        <p>Western content dominates Filipino screens, creating asymmetries in global communication systems.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 fade-in">
-                    <div class="interactive-card" onclick="showModal('digital-divide')">
-                        <div class="card-icon"><i class="fas fa-network-wired"></i></div>
-                        <h3>Digital Imperialism</h3>
-                        <p>Algorithms and platforms controlled by foreign corporations dictate information flow and cultural consumption.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-12 fade-in">
-                    <div class="interactive-card" onclick="showModal('theoretical-framework')">
-                        <h4><i class="fas fa-book-open text-primary"></i> Theoretical Foundations</h4>
-                        <p>Understanding media globalization requires examining five key theoretical frameworks that explain power dynamics, cultural flows, and resistance patterns. Click to explore the academic foundations of this analysis.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title fade-in">The Numbers Tell the Story</h2>
-            <div class="row">
-                <div class="col-md-3 fade-in">
-                    <div class="stat-box">
-                        <span class="stat-number" data-target="86.75">0</span>
-                        <span class="stat-label">Million Filipinos on Social Media</span>
-                    </div>
-                </div>
-                <div class="col-md-3 fade-in">
-                    <div class="stat-box">
-                        <span class="stat-number" data-target="96">0</span>
-                        <span class="stat-label">% Facebook Market Penetration</span>
-                    </div>
-                </div>
-                <div class="col-md-3 fade-in">
-                    <div class="stat-box">
-                        <span class="stat-number" data-target="34">0</span>
-                        <span class="stat-label">% Netflix Market Share</span>
-                    </div>
-                </div>
-                <div class="col-md-3 fade-in">
-                    <div class="stat-box">
-                        <span class="stat-number" data-target="87.64">0</span>
-                        <span class="stat-label">% Mobile Internet Traffic</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="impact" class="py-5">
-        <div class="container">
-            <h2 class="section-title fade-in">Multi-Dimensional Impact</h2>
-            <div class="timeline">
-                <div class="timeline-item left fade-in">
-                    <div class="timeline-content">
-                        <h4><i class="fas fa-palette text-danger"></i> Cultural Impact</h4>
-                        <p>Western entertainment dominates, reshaping local youth culture, consumption patterns, and societal values while creating hybrid cultural forms.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item right fade-in">
-                    <div class="timeline-content">
-                        <h4><i class="fas fa-chart-line text-success"></i> Economic Impact</h4>
-                        <p>$19M Netflix investment creates jobs but establishes dependency on foreign platforms and licenses, challenging local industry competitiveness.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item left fade-in">
-                    <div class="timeline-content">
-                        <h4><i class="fas fa-landmark text-primary"></i> Political Impact</h4>
-                        <p>Global platforms influence democratic discourse, with potential for foreign interference and suppression of local political narratives.</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="vulnerabilities" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="section-title fade-in">Four Critical Vulnerabilities</h2>
-            <p class="text-center mb-5 fade-in">Click each vulnerability to explore the interconnected system of structural disadvantage</p>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 fade-in">
-                    <div class="vulnerability-circle vuln-1" onclick="showVulnerability(1)">
-                        <span>Algorithmic Control</span>
-                    </div>
-                    <p class="text-center mt-3">Foreign algorithms dictate information flow, prioritizing engagement over accuracy</p>
-                </div>
-                <div class="col-md-6 col-lg-3 fade-in">
-                    <div class="vulnerability-circle vuln-2" onclick="showVulnerability(2)">
-                        <span>Infrastructure Dependence</span>
-                    </div>
-                    <p class="text-center mt-3">Essential communication happens on foreign-controlled platforms beyond Filipino jurisdiction</p>
-                </div>
-                <div class="col-md-6 col-lg-3 fade-in">
-                    <div class="vulnerability-circle vuln-3" onclick="showVulnerability(3)">
-                        <span>Discourse Manipulation</span>
-                    </div>
-                    <p class="text-center mt-3">Platform design prioritizes sensational content, degrading public discourse quality</p>
-                </div>
-                <div class="col-md-6 col-lg-3 fade-in">
-                    <div class="vulnerability-circle vuln-4" onclick="showVulnerability(4)">
-                        <span>Economic Extraction</span>
-                    </div>
-                    <p class="text-center mt-3">Filipino data and attention enrich foreign corporations with minimal local regulation</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="solution" class="py-5">
-        <div class="container">
-            <h2 class="section-title fade-in">Stakeholder Perspectives & Solution Evaluation</h2>
-            <p class="text-center mb-5 fade-in">Multiple actors propose different solutions. Understanding these perspectives is crucial to selecting the most appropriate approach.</p>
-            
-            <div class="row mb-5">
-                <div class="col-lg-12 fade-in">
-                    <button class="btn btn-outline-primary btn-lg w-100" onclick="showModal('stakeholder-positions')">
-                        <i class="fas fa-users"></i> View All Stakeholder Positions & Recommended Solutions
-                    </button>
-                </div>
-            </div>
-
-            <h3 class="text-center mb-4 fade-in">Comprehensive Cultural Sovereignty Framework</h3>
-            <p class="text-center mb-5 fade-in"><strong>Selected as the most appropriate solution</strong> after evaluating multiple perspectives through criteria of effectiveness, feasibility, cultural impact, and democratic legitimacy.</p>
-            <div class="framework-grid">
-                <div class="framework-item fade-in">
-                    <div class="framework-number">1</div>
-                    <h4 class="mt-4">Local Content Development</h4>
-                    <p>National fund from streaming taxes supporting Filipino creators with grants and co-production incentives</p>
-                    <button class="btn btn-primary mt-3" onclick="showSolution(1)">Learn More</button>
-                </div>
-                <div class="framework-item fade-in">
-                    <div class="framework-number">2</div>
-                    <h4 class="mt-4">Global Platform Regulation</h4>
-                    <p>Content quotas and fair competition policies ensuring market space for local productions</p>
-                    <button class="btn btn-primary mt-3" onclick="showSolution(2)">Learn More</button>
-                </div>
-                <div class="framework-item fade-in">
-                    <div class="framework-number">3</div>
-                    <h4 class="mt-4">Media Literacy Education</h4>
-                    <p>Critical thinking programs empowering Filipinos as informed consumers and confident creators</p>
-                    <button class="btn btn-primary mt-3" onclick="showSolution(3)">Learn More</button>
-                </div>
-                <div class="framework-item fade-in">
-                    <div class="framework-number">4</div>
-                    <h4 class="mt-4">Democratic Media Governance</h4>
-                    <p>Multi-stakeholder oversight ensuring accountability and continuous adaptation</p>
-                    <button class="btn btn-primary mt-3" onclick="showSolution(4)">Learn More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="action" class="cta-section">
-        <div class="container">
-            <h2 class="mb-4">The Path Forward</h2>
-            <p class="lead">Media globalization is not inevitable—it's a contested terrain where different approaches can lead to either cultural imperialism or democratic cultural development.</p>
-            <button class="cta-button" onclick="showRecommendations()">View Full Recommendations</button>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Terminal Assessment: Media Globalization in the Philippines</p>
-            <p class="mb-0">MMDC Globalization Studies | Created by Michael Galario</p>
-        </div>
-    </footer>
-
-    <div class="modal fade" id="infoModal" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitle"></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body" id="modalBody"></div>
-            </div>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-globe"></i> Media Globalization PH</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#issue">The Issue</a></li>
+          <li class="nav-item"><a class="nav-link" href="#data">The Data</a></li>
+          <li class="nav-item"><a class="nav-link" href="#theory">Theory</a></li>
+          <li class="nav-item"><a class="nav-link" href="#impact">Impact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#vulnerabilities">Vulnerabilities</a></li>
+          <li class="nav-item"><a class="nav-link" href="#solution">Solution</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#action">Take Action</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Media Globalization in the Philippines</h1>
+      <p>Cultural Imperialism and the Fight for Local Sovereignty</p>
+    </div>
+    <div class="scroll-indicator" onclick="document.getElementById('issue').scrollIntoView({behavior: 'smooth'})">
+      <i class="fas fa-chevron-down fa-2x text-white"></i>
+    </div>
+  </section>
 
+  <!-- ISSUE SECTION -->
+  <section id="issue" class="py-5">
+    <div class="container">
+      <h2 class="section-title fade-in">Understanding The Issue</h2>
+      <div class="row mb-5">
+        <div class="col-lg-10 mx-auto fade-in">
+          <div class="alert alert-warning">
+            <h5><i class="fas fa-exclamation-triangle"></i> The Core Problem</h5>
+            <p>Media globalization promises cultural exchange and democratic information flow, but the reality reveals concentrated media power and profound asymmetries in global communication systems (Global Media Journal, 2024).</p>
+            <p class="mb-0"><strong>The Gap:</strong> While 86.75 million Filipinos use social media platforms (Spiralytics, 2024), these foreign-owned systems prioritize engagement over accuracy, creating filter bubbles and enabling disinformation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4 fade-in">
+          <div class="interactive-card" onclick="showModal('media-power')">
+            <div class="card-icon"><i class="fas fa-broadcast-tower"></i></div>
+            <h3>Media Power</h3>
+            <p>Netflix dominates with 34% market share in the Philippines (Unbox.ph, 2024).</p>
+            <div class="citation">Click to explore with full citations</div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="interactive-card" onclick="showModal('cultural-flow')">
+            <div class="card-icon"><i class="fas fa-stream"></i></div>
+            <h3>Cultural Flow</h3>
+            <p>The Philippines imports significantly more media content than it exports (Albuquerque, 2024).</p>
+            <div class="citation">Click to explore with full citations</div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="interactive-card" onclick="showModal('digital-divide')">
+            <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+            <h3>Digital Imperialism</h3>
+            <p>96% Facebook penetration means foreign algorithms govern Filipino communication (Statista, 2024).</p>
+            <div class="citation">Click to explore with full citations</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Problem to Evidence</h5>
+            <p class="mb-0">Understanding the theoretical framework helps us interpret the empirical data that reveals the scale of foreign platform dominance in the Philippines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATA SECTION -->
+  <section id="data" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title fade-in">The Numbers Tell the Story</h2>
+      
+      <!-- Key Statistics -->
+      <div class="row mb-5">
+        <div class="col-md-3 fade-in">
+          <div class="stat-box">
+            <span class="stat-number" data-target="86.75">0</span>
+            <span class="stat-label">Million Filipinos on Social Media</span>
+            <div class="citation">(Spiralytics, 2024)</div>
+          </div>
+        </div>
+        <div class="col-md-3 fade-in">
+          <div class="stat-box">
+            <span class="stat-number" data-target="96">0</span>
+            <span class="stat-label">% Facebook Market Penetration</span>
+            <div class="citation">(Statista, 2024)</div>
+          </div>
+        </div>
+        <div class="col-md-3 fade-in">
+          <div class="stat-box">
+            <span class="stat-number" data-target="34">0</span>
+            <span class="stat-label">% Netflix Market Share</span>
+            <div class="citation">(Unbox.ph, 2024)</div>
+          </div>
+        </div>
+        <div class="col-md-3 fade-in">
+          <div class="stat-box">
+            <span class="stat-number" data-target="87.64">0</span>
+            <span class="stat-label">% Mobile Internet Traffic</span>
+            <div class="citation">(Meltwater, 2025)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Streaming Platform Market Share -->
+      <div class="row mt-5">
+        <div class="col-lg-8 mx-auto fade-in">
+          <div class="platform-dominance">
+            <div class="chart-header">
+              <div class="chart-title">Streaming Platform Market Share</div>
+              <div class="chart-subtitle">Philippines • Q1 2024</div>
+            </div>
+            <div class="platform-chart">
+              <div class="platform-bar">
+                <span class="platform-name">Netflix</span>
+                <span class="platform-value">34%</span>
+                <div class="platform-bar-container">
+                  <div class="platform-fill" data-platform="netflix" data-value="34">
+                    <span class="platform-percentage">34%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-bar">
+                <span class="platform-name">iFlix</span>
+                <span class="platform-value">22%</span>
+                <div class="platform-bar-container">
+                  <div class="platform-fill" data-platform="iflix" data-value="22">
+                    <span class="platform-percentage">22%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-bar">
+                <span class="platform-name">Amazon Prime</span>
+                <span class="platform-value">18%</span>
+                <div class="platform-bar-container">
+                  <div class="platform-fill" data-platform="amazon" data-value="18">
+                    <span class="platform-percentage">18%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-bar">
+                <span class="platform-name">Disney+</span>
+                <span class="platform-value">16%</span>
+                <div class="platform-bar-container">
+                  <div class="platform-fill" data-platform="disney" data-value="16">
+                    <span class="platform-percentage">16%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="platform-bar">
+                <span class="platform-name">Other Platforms</span>
+                <span class="platform-value">10%</span>
+                <div class="platform-bar-container">
+                  <div class="platform-fill" data-platform="others" data-value="10">
+                    <span class="platform-percentage">10%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="visual-caption">Figure 1. Philippine digital consumption patterns dominated by global platforms (Unbox.ph, 2024)</p>
+        </div>
+      </div>
+
+      <!-- What These Numbers Mean -->
+      <div class="row mt-5">
+        <div class="col-lg-10 mx-auto fade-in">
+          <div class="info-box">
+            <h5><i class="fas fa-chart-line"></i> What These Numbers Mean</h5>
+            <p>The statistics reveal a clear pattern of foreign platform dominance in the Philippine media landscape:</p>
+            
+            <div class="row mt-4">
+              <div class="col-md-4">
+                <div class="data-point">
+                  <h6><i class="fas fa-users text-primary"></i> Massive User Base</h6>
+                  <p>86.75 million Filipinos on social media creates an enormous market that foreign platforms actively target and monetize.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="data-point">
+                  <h6><i class="fas fa-broadcast-tower text-success"></i> Platform Concentration</h6>
+                  <p>96% Facebook penetration means nearly all Filipino social media users are on a single foreign-owned platform.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="data-point">
+                  <h6><i class="fas fa-film text-warning"></i> Streaming Dominance</h6>
+                  <p>Foreign streaming platforms control 90% of the market, leaving minimal space for local competitors.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <h6>The Consequences:</h6>
+              <ul>
+                <li><strong>Economic Extraction:</strong> Billions in revenue flow abroad with limited local reinvestment</li>
+                <li><strong>Cultural Dependency:</strong> Filipino audiences increasingly consume foreign narratives</li>
+                <li><strong>Market Barriers:</strong> Local creators struggle to compete with global production budgets</li>
+                <li><strong>Algorithmic Control:</strong> Foreign algorithms determine what content Filipinos see and share</li>
+              </ul>
+            </div>
+            
+            <p class="mb-0 mt-3"><strong>Critical Insight:</strong> This dominance isn't inevitable—it's the result of specific policy choices that can be changed through strategic intervention. The concentration of media power in foreign hands creates structural vulnerabilities that affect cultural sovereignty, economic development, and democratic discourse.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Data to Theory</h5>
+            <p class="mb-0">These numbers aren't just statistics—they represent concrete manifestations of theoretical frameworks that explain how media globalization operates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THEORY SECTION -->
+  <section id="theory" class="py-5">
+    <div class="container">
+      <h2 class="section-title fade-in">Theoretical Foundations</h2>
+      <p class="text-center mb-5 fade-in">Five frameworks that explain how media globalization shapes and reshapes power, culture, and identity</p>
+      
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="accordion fade-in" id="theoryAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#theory1">
+                  <i class="fas fa-broadcast-tower me-3"></i> Media Imperialism Theory
+                </button>
+              </h2>
+              <div id="theory1" class="accordion-collapse collapse show" data-bs-parent="#theoryAccordion">
+                <div class="accordion-body">
+                  <p><strong>Core Concept:</strong> Western (particularly American) media content dominance represents soft power projection shaping global cultural norms (Mirrlees, 2024).</p>
+                  <p><strong>Philippine Application:</strong> Since the 1990s, US institutions have set standards for global scholarship and cultural production. This penetration extends to the Philippines through Netflix's 34% market dominance, Disney+ content libraries, and Amazon Prime's growing influence—each platform carrying predominantly Western narratives and values.</p>
+                  <p class="mb-0"><strong>Impact:</strong> Media serves as a vehicle for cultural and ideological influence across national boundaries, reshaping what Filipinos consider "normal," "entertaining," or "aspirational."</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory2">
+                  <i class="fas fa-globe-americas me-3"></i> Global Media Systems Theory
+                </button>
+              </h2>
+              <div id="theory2" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion">
+                <div class="accordion-body">
+                  <p><strong>Core Concept:</strong> Media operates as a global system with center-periphery dynamics mirroring economic and political globalization (EBSCO Research Starters, 2024).</p>
+                  <p><strong>Philippine Application:</strong> The Philippines occupies a peripheral position in global media flows. Content moves from metropolitan centers (Hollywood, Seoul, Tokyo) to peripheral markets like Manila, rarely flowing in reverse. This creates structural inequality where Filipino stories struggle to reach global audiences while foreign content saturates local screens.</p>
+                  <p class="mb-0"><strong>Impact:</strong> Powerful metropolitan nations break down the integrity and autonomy of peripheral countries' media systems, limiting cultural self-determination.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory3">
+                  <i class="fas fa-microchip me-3"></i> Digital Cultural Imperialism
+                </button>
+              </h2>
+              <div id="theory3" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion">
+                <div class="accordion-body">
+                  <p><strong>Core Concept:</strong> Modern imperialism extends beyond traditional media to digital platforms, algorithms, and data systems (ResearchGate, 2022).</p>
+                  <p><strong>Philippine Application:</strong> With 86.75 million Filipinos on social media and 96% on Facebook, algorithmic systems designed in Silicon Valley determine what information Filipinos encounter. These algorithms prioritize engagement over accuracy, creating filter bubbles where 12% of fact-checked articles contain AI-generated disinformation (Rappler, 2024).</p>
+                  <p class="mb-0"><strong>Impact:</strong> Globalization's technological infrastructure becomes a tool of cultural imperialism when controlled by foreign powers with their own priorities.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory4">
+                  <i class="fas fa-crown me-3"></i> Empire and Media Symbiosis
+                </button>
+              </h2>
+              <div id="theory4" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion">
+                <div class="accordion-body">
+                  <p><strong>Core Concept:</strong> All empires are media-dependent; media imperialism has been central to world systems for centuries (Wikipedia, 2025).</p>
+                  <p><strong>Philippine Application:</strong> The Philippines experienced Spanish colonial media control through Catholic publications, then American cultural imperialism through Hollywood and English-language media. Today's digital platforms represent the latest evolution of this pattern—corporate empires using media for economic, geopolitical, and cultural-ideological expansion.</p>
+                  <p class="mb-0"><strong>Impact:</strong> Media is not a neutral technology but an instrument of power projection and influence essential to maintaining global hierarchies.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#theory5">
+                  <i class="fas fa-industry me-3"></i> Political Economy of Media
+                </button>
+              </h2>
+              <div id="theory5" class="accordion-collapse collapse" data-bs-parent="#theoryAccordion">
+                <div class="accordion-body">
+                  <p><strong>Core Concept:</strong> Transnational corporate ownership creates systemic biases favoring dominant cultural interests' content (ResearchGate, 2024).</p>
+                  <p><strong>Philippine Application:</strong> Netflix, Disney+, and Amazon Prime's ownership structures ensure profits flow to foreign shareholders. Their content decisions prioritize global markets over Philippine cultural needs. Local content receives minimal platform investment ($19M from Netflix in 2024) compared to global production budgets, pushing alternative views and local cultural expressions to the margins.</p>
+                  <p class="mb-0"><strong>Impact:</strong> Economic power translates to cultural power, systematically marginalizing Filipino voices in favor of content that serves transnational corporate interests.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-box mt-4 fade-in">
+            <h5><i class="fas fa-lightbulb"></i> Why Theory Matters</h5>
+            <p class="mb-0">These frameworks aren't abstract—they explain the concrete power dynamics visible in Philippine media markets. Understanding them reveals why market forces alone cannot solve cultural imperialism, and why strategic policy intervention becomes necessary to protect cultural sovereignty while engaging with beneficial aspects of global media integration.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Theory to Real-World Impact</h5>
+            <p class="mb-0">These theoretical frameworks help us understand the tangible consequences of media globalization across cultural, economic, and political dimensions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT SECTION -->
+  <section id="impact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title fade-in">Multi-Dimensional Impact</h2>
+      <p class="text-center mb-5 fade-in">How media globalization transforms culture, economy, and politics</p>
+      
+      <div class="timeline">
+        <div class="timeline-item left fade-in">
+          <div class="timeline-content">
+            <h4><i class="fas fa-palette text-danger"></i> Cultural Impact</h4>
+            <p>Filipino youth increasingly adopt Western cultural norms, humor, and aesthetics. Local art forms and traditional media lose audience share, though hybrid expressions also emerge (Parrot Analytics, 2024).</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item right fade-in">
+          <div class="timeline-content">
+            <h4><i class="fas fa-chart-line text-success"></i> Economic Impact</h4>
+            <p>Foreign streaming platforms generate profit from Filipino audiences, but only a small portion circulates back into local production and creative industries (Media Meter, 2025).</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item left fade-in">
+          <div class="timeline-content">
+            <h4><i class="fas fa-landmark text-primary"></i> Political Impact</h4>
+            <p>Global media and social platforms shape political discourse. Algorithmic manipulation can amplify disinformation and influence national elections (Mirrlees, 2024).</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Impact to Vulnerabilities</h5>
+            <p class="mb-0">These impacts create specific vulnerabilities that expose the Philippine media ecosystem to external control and manipulation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VULNERABILITIES -->
+  <section id="vulnerabilities" class="py-5">
+    <div class="container">
+      <h2 class="section-title fade-in">Four Critical Vulnerabilities</h2>
+      <p class="text-center mb-5 fade-in">Click each vulnerability to explore the interconnected system of structural disadvantage</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 fade-in">
+          <div class="vulnerability-circle vuln-1" onclick="showVulnerability(1)">
+            <span>Algorithmic Control</span>
+          </div>
+          <p class="text-center mt-3">12% of fact-checked articles contain AI-generated disinformation (Rappler, 2024)</p>
+        </div>
+        <div class="col-md-6 col-lg-3 fade-in">
+          <div class="vulnerability-circle vuln-2" onclick="showVulnerability(2)">
+            <span>Infrastructure Dependence</span>
+          </div>
+          <p class="text-center mt-3">95% rely on Facebook for essential communication (Statista, 2024)</p>
+        </div>
+        <div class="col-md-6 col-lg-3 fade-in">
+          <div class="vulnerability-circle vuln-3" onclick="showVulnerability(3)">
+            <span>Discourse Manipulation</span>
+          </div>
+          <p class="text-center mt-3">Platform design degrades public discourse quality (Context/TRF, 2025)</p>
+        </div>
+        <div class="col-md-6 col-lg-3 fade-in">
+          <div class="vulnerability-circle vuln-4" onclick="showVulnerability(4)">
+            <span>Economic Extraction</span>
+          </div>
+          <p class="text-center mt-3">87.64% mobile traffic generates data for foreign corporations (Meltwater, 2025)</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Vulnerabilities to Solutions</h5>
+            <p class="mb-0">Understanding these vulnerabilities enables us to develop targeted solutions that address the root causes of media imperialism.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS -->
+  <section id="solution" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title fade-in">Stakeholder Perspectives & Solution Evaluation</h2>
+      <p class="text-center mb-5 fade-in">
+        Various stakeholders—including government, media companies, and civic organizations—have proposed interventions. The transition from these options to a unified framework is based on SMART evaluation and cross-sector collaboration.
+      </p>
+
+      <div class="row mb-5">
+        <div class="col-lg-12 fade-in">
+          <button class="btn btn-outline-primary btn-lg w-100" onclick="showModal('stakeholder-positions')">
+            <i class="fas fa-users"></i> View All Stakeholder Positions & Recommended Solutions
+          </button>
+        </div>
+      </div>
+
+      <h3 class="text-center mb-4 fade-in">Comprehensive Cultural Sovereignty Framework</h3>
+      <p class="text-center mb-5 fade-in">
+        After comparing all alternatives, the final selected solution integrates education, regulation, and cultural empowerment into one practical approach - an integrated four-component solution addressing all vulnerabilities simultaneously. This approach recognizes that partial solutions would fail—only an integrated strategy can break the cycle of digital dependence..
+      </p>
+
+      <div class="framework-grid">
+        <div class="framework-item fade-in">
+          <div class="framework-number">1</div>
+          <h4 class="mt-4">Local Content Development</h4>
+          <p>National fund supporting Filipino creators (Media Meter, 2025)</p>
+          <button class="btn btn-primary mt-3" onclick="showSolution(1)">Learn More</button>
+        </div>
+        <div class="framework-item fade-in">
+          <div class="framework-number">2</div>
+          <h4 class="mt-4">Platform Regulation</h4>
+          <p>Content quotas and fair competition laws ensuring visibility for Filipino productions (Statista, 2024)</p>
+          <button class="btn btn-primary mt-3" onclick="showSolution(2)">Learn More</button>
+        </div>
+        <div class="framework-item fade-in">
+          <div class="framework-number">3</div>
+          <h4 class="mt-4">Media Literacy</h4>
+          <p>Critical media literacy programs in schools to empower digital citizens (Albuquerque, 2024)</p>
+          <button class="btn btn-primary mt-3" onclick="showSolution(3)">Learn More</button>
+        </div>
+        <div class="framework-item fade-in">
+          <div class="framework-number">4</div>
+          <h4 class="mt-4">Democratic Governance</h4>
+          <p>Multi-stakeholder councils ensuring accountability and adaptation of media policies (Mirrlees, 2024)</p>
+          <button class="btn btn-primary mt-3" onclick="showSolution(4)">Learn More</button>
+        </div>
+      </div>
+
+      <div class="card p-4 mt-5 shadow-sm fade-in">
+        <h4 class="mb-3 text-primary"><i class="fas fa-bullseye"></i> SMART Evaluation of the Final Solution</h4>
+        
+        <div class="smart-criteria">
+          <h6><i class="fas fa-crosshairs"></i> Specific</h6>
+          <p class="mb-0">Establish a national content development fund supporting 100+ Filipino creators yearly, enforce 30% local content quotas on streaming platforms, integrate media literacy into K-12 curriculum reaching 100% of schools, and create multi-stakeholder governance council with quarterly meetings.</p>
+        </div>
+
+        <div class="smart-criteria">
+          <h6><i class="fas fa-chart-line"></i> Measurable</h6>
+          <p class="mb-0">Track: number of Filipino productions funded annually, percentage increase in local content availability (target: 20% increase in 3 years), PHP invested by platforms in Filipino productions, students completing literacy training annually, stakeholder satisfaction surveys, and policy adjustments made based on evidence.</p>
+        </div>
+
+        <div class="smart-criteria">
+          <h6><i class="fas fa-check-circle"></i> Achievable</h6>
+          <p class="mb-0">Utilizes existing infrastructure: education system for literacy programs, MTRCB and DTI for regulatory oversight, streaming platform revenues for content fund financing. International precedents (France, South Korea, Canada) demonstrate feasibility. Initial pilot programs allow gradual scaling based on results.</p>
+        </div>
+
+        <div class="smart-criteria">
+          <h6><i class="fas fa-flag"></i> Relevant</h6>
+          <p class="mb-0">Directly addresses the four vulnerabilities identified: content development counters cultural dominance, platform regulation ensures market access, media literacy builds critical citizenship, and democratic governance maintains accountability. Strengthens national cultural identity while enabling beneficial global engagement.</p>
+        </div>
+
+        <div class="smart-criteria">
+          <h6><i class="fas fa-clock"></i> Time-bound</h6>
+          <p class="mb-0">Implementation timeline: Phase 1 (Months 1-6): establish governance council, draft legislation. Phase 2 (Months 7-18): launch content fund pilots, implement initial quotas, start literacy programs in select schools. Phase 3 (Months 19-36): scale successful programs, full regulatory compliance. Phase 4 (Year 3+): continuous improvement, international collaboration. Full implementation by 2029.</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Solutions to Research Foundation</h5>
+            <p class="mb-0">These evidence-based solutions are grounded in comprehensive research that informs effective policy interventions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH FOUNDATION SECTION -->
+  <section id="research" class="py-5">
+    <div class="container">
+      <h2 class="section-title fade-in">Research Foundation</h2>
+      <p class="text-center mb-4 fade-in">Academic and data sources supporting this analysis</p>
+      
+      <div class="references-grid fade-in">
+        <div class="reference-category">
+          <h4><i class="fas fa-book"></i> Academic Research</h4>
+          <ul>
+            <li>Albuquerque, A. (2024). Media, intellectual, and cultural imperialism today. <em>Media Studies, 4(2)</em>, 45-72.</li>
+            <li>Mirrlees, T. (2024). Ten postulates of a media imperialism framework. <em>Global Media and Communication, 20(1)</em>, 78-95.</li>
+            <li>ResearchGate. (2022). Digital globalization & cultural imperialism. <em>Digital Culture Studies</em>, 362803371.</li>
+            <li>International Scholars Journals. (2022). Impact of cultural imperialism on global communication. <em>Communication Studies Quarterly, 8(4)</em>, 123-145.</li>
+            <li>EBSCO Research Starters. (2024). Cultural imperialism. <em>Social Sciences and Humanities Research</em>.</li>
+          </ul>
+        </div>
+
+        <div class="reference-category">
+          <h4><i class="fas fa-chart-bar"></i> Market Data & Reports</h4>
+          <ul>
+            <li>Statista. (2024). Leading streaming services in the Philippines 2024. <em>Philippine Market Statistics</em>.</li>
+            <li>Unbox.ph. (2024). Netflix dominates streaming in the Philippines for Q1 2024. <em>Philippine Technology News</em>.</li>
+            <li>Parrot Analytics. (2024). The state of streaming and television in Philippines Q2 2024. <em>Philippine Media Market Report</em>.</li>
+            <li>Media Meter. (2025). Leading streaming platforms in the Philippines 2025. <em>Philippine Media Analysis</em>.</li>
+            <li>Evoca TV. (2024). Streaming service market share (2025): Global revenue data. <em>Media Industry Reports</em>.</li>
+            <li>Amira Labs. (2024). The state of streaming media platforms in 2024. <em>Digital Media Analysis</em>.</li>
+          </ul>
+        </div>
+
+        <div class="reference-category">
+          <h4><i class="fas fa-users"></i> User Statistics & Digital Data</h4>
+          <ul>
+            <li>DataReportal. (2024). Digital 2024: The Philippines. <em>Global Digital Statistics</em>.</li>
+            <li>Spiralytics. (2024). Philippine social media statistics 2024. <em>Digital Marketing Research</em>.</li>
+            <li>Meltwater. (2025). Philippine digital landscape report. <em>Social Media Analytics</em>.</li>
+            <li>Team Asia. (2024). TikTok usage in the Philippines. <em>Platform Analytics</em>.</li>
+            <li>Rappler. (2024). AI and disinformation in 2022 elections. <em>Philippine Journalism</em>.</li>
+            <li>Context/TRF. (2025). Fact-checking challenges in the Philippines. <em>Media Integrity Reports</em>.</li>
+          </ul>
+        </div>
+
+        <div class="reference-category">
+          <h4><i class="fas fa-newspaper"></i> Global Media Analysis</h4>
+          <ul>
+            <li>Global Media Journal. (2024). Globalization of media: Impacts and implications in a connected world. <em>Global Media Journal, 22(45)</em>, Article 94801.</li>
+            <li>Global Media Journal. (2024). The evolution and impact of streaming services. <em>Global Media Journal, 23(47)</em>, Article 95170.</li>
+            <li>Cambridge Core. (2025). AI detection accuracy in digital media. <em>Technology and Media Studies</em>.</li>
+            <li>Philippine News Agency. (2024). Coordinated disinformation campaigns. <em>Government Media Reports</em>.</li>
+            <li>Wikipedia. (2025). Media imperialism. <em>Communication Studies Reference</em>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-lg-12 fade-in">
+          <div class="transition-statement">
+            <h5><i class="fas fa-arrow-right text-primary"></i> From Research to Action</h5>
+            <p class="mb-0">This research foundation empowers us to move from analysis to concrete action that protects Filipino cultural sovereignty.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAKE ACTION -->
+  <section id="action" class="cta-section">
+    <div class="container">
+      <h2 class="mb-4">The Path Forward</h2>
+      <p class="lead">Having examined the problem, data, theory, impacts, vulnerabilities, solutions, and research, we now arrive at the crucial question: What can we do?</p>
+      <p class="lead">Media globalization is not inevitable—it's a terrain of choice. Through conscious policy, education, and participation, Filipinos can redefine how global media power shapes their cultural future.</p>
+      <button class="cta-button" onclick="window.open('https://ncca.gov.ph/', '_blank')">Support Local Media</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Terminal Assessment: Media Globalization in the Philippines</p>
+      <p class="mb-0">MMDC Globalization Studies | Created by Michael Galario</p>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="infoModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
