@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const modalContent = {
     'media-power': {
         title: 'Concentrated Media Power',
-        body: '<div class="alert alert-primary"><h6><i class="fas fa-quote-left"></i> Supporting Evidence with Citations</h6></div>' +
+        body: '<div class="alert alert-primary"><h6><i class="fas fa-quote-left"></i> Supporting Evidence</h6></div>' +
               '<p><strong>The Challenge:</strong> Global media conglomerates control content production and distribution, creating power asymmetries (Mirrlees, 2024).</p>' +
               '<p><strong>In the Philippines:</strong> Netflix dominates with 34% market share, while Disney+, Amazon Prime, and HBO Go control most of the remaining streaming landscape (Unbox.ph, 2024).</p>' +
               '<p><strong>Impact:</strong> Local producers struggle to compete with the financial and technological capabilities of these multinational corporations (Statista, 2024).</p>' +
@@ -75,7 +75,7 @@ const modalContent = {
     },
     'cultural-flow': {
         title: 'Asymmetric Cultural Flow',
-        body: '<div class="alert alert-primary"><h6><i class="fas fa-quote-left"></i> Supporting Evidence with Citations</h6></div>' +
+        body: '<div class="alert alert-primary"><h6><i class="fas fa-quote-left"></i> Supporting Evidence</h6></div>' +
               '<p><strong>The Pattern:</strong> Media content flows predominantly from Western nations to developing countries, creating cultural trade deficits (EBSCO Research Starters, 2024).</p>' +
               '<p><strong>Philippine Context:</strong> The country imports significantly more media content than it exports, influenced by colonial history with Spain and America (Albuquerque, 2024).</p>' +
               '<p><strong>Result:</strong> Western entertainment content, English-language programming, and pop culture references reshape local youth culture and societal values (Parrot Analytics, 2024).</p>' +
@@ -83,7 +83,7 @@ const modalContent = {
     },
     'digital-divide': {
         title: 'Digital Cultural Imperialism',
-        body: '<div class="alert alert-primary"><h6><i class="fas fa-quote-left"></i> Supporting Evidence with Citations</h6></div>' +
+        body: '<div class="alert alert-primary"><h6><i class="fas fa-quote-left"></i> Supporting Evidence</h6></div>' +
               '<p><strong>Modern Form:</strong> Media imperialism extends beyond traditional broadcast to encompass digital platforms, algorithms, and data collection (ResearchGate, 2022).</p>' +
               '<p><strong>Scale:</strong> 86.75 million Filipinos use social media platforms, with 96% on Facebook and 49.09 million on TikTok (Spiralytics, 2024; DataReportal, 2024).</p>' +
               '<p><strong>Control:</strong> Foreign-owned algorithms determine information exposure, prioritizing engagement over accuracy (Rappler, 2024).</p>' +
